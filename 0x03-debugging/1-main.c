@@ -1,3 +1,5 @@
+#include <studio>
+
 /**
 * main - causes an infinite loop
 * Return: 0
