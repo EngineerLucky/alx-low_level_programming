@@ -1,4 +1,4 @@
-#include <studio>
+#include <studio.h>
 
 /**
 * main - causes an infinite loop
