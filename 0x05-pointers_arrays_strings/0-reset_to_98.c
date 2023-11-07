@@ -1,8 +1,7 @@
 #include "main.h"
 /**
  * reset_to_98 - it should take a pointer to an int parameter
- *
-and should updates the value it points to 98
+ *and should updates the value it points to 98
  *
  * @n: int parameter
  *
