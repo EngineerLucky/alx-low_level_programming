@@ -20,8 +20,7 @@ size_t dlistint_len(const dlistint_t *h)
 }
 
 /**
- * insert_dnodeint_at_index  the function
- * inserts a new node at a given position
+ * insert_dnodeint_at_index  the function inserts a new node at a given position
  * @h: pointer to the head of the doubly linked list
  * @idx: index to add the node
  * @n: value of the node
