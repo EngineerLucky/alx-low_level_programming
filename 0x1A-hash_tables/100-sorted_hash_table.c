@@ -1,3 +1,5 @@
+#include "hash_tables.h"
+
 char *shash_table_get(const shash_table_t *ht, const char *key)
 {
 	unsigned long int index;
@@ -20,8 +22,7 @@ char *shash_table_get(const shash_table_t *ht, const char *key)
 }
 
 /**
- * shash_table_print - prints a hash table
- *
+ * shash_table_print - The function prints a hash table
  * @ht: the hash table to print
  */
 
@@ -50,8 +51,7 @@ void shash_table_print(const shash_table_t *ht)
 }
 
 /**
- * shash_table_print_rev - rev prints a hash table
- *
+ * shash_table_print_rev - the function rev prints a hash table
  * @ht: the hash table to print
  */
 
@@ -80,8 +80,7 @@ void shash_table_print_rev(const shash_table_t *ht)
 }
 
 /**
- * shash_table_delete - deletes a hash table
- *
+ * shash_table_delete - The function deletes a hash table
  * @ht: the hash table to delete
  */
 
